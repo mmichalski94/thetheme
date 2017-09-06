@@ -1,0 +1,332 @@
+/* General styles - start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5em;
+    font-weight: 300;
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-family: 'Montserrat';
+    text-align: left;
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.letter-color {
+    color: #046b9c;
+}
+
+.letter-color-red {
+    color: #e15c57;
+}
+
+section {
+    overflow: auto;
+    padding: 60px 0;
+    /* box-shadow: 0px 5px 10px #888888;*/
+}
+
+#product-menu {
+    height: 50px;
+    background-color: red;
+}
+
+
+/* General styles - stop */
+
+
+/* Main menu styles - start */
+
+#main-nav {
+    background-color: #fff;
+    border-bottom: 1px solid #aaa;
+}
+
+#main-nav ul {
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #046b9c;
+}
+
+.navbar-header>a {
+    padding: 0 15px;
+}
+
+.navbar-header>a>img {
+    padding-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #046b9c;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 2px solid #046b9c;
+}
+
+
+/* 100% width nav dropdown start */
+
+.nav>li.dropdown.open {
+    position: static;
+}
+
+.nav>li.dropdown.open .dropdown-menu {
+    display: table;
+    width: 100%;
+    color: #046b9c;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.nav>li.dropdown.open .dropdown-menu .first-stage-drop {
+    padding: 10px 0px;
+}
+
+.dropdown-menu>li {
+    display: table-cell;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: #046b9c;
+    background-color: #fff;
+}
+
+
+/* 100% width nav dropdown stop */
+
+
+/* Content styles start */
+
+
+/*#content {
+    height: 700px;
+    margin-left: 0px;
+    padding-left: 30px;
+    display: inline-block;
+}*/
+
+
+/*
+.container{
+    margin: 0;
+}
+*/
+
+
+/* 4-column-slide stylesheet start*/
+
+.slider-4-columns {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.column-1-4 {
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    float: left;
+    transition: all 0.5s linear;
+}
+
+.background {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 200%;
+    background-repeat: no-repeat;
+}
+
+.slider-4-columns>.column-1-4:hover {
+    width: 100%;
+}
+
+.slider-4-columns:hover .column-1-4:not(:hover) {
+    width: 0%;
+}
+
+.column-1-4:last-child {
+    position: absolute;
+    right: 0;
+}
+
+#background-1 {
+    background-image: url(http://miriadna.com/desctopwalls/images/max/View-of-the-valley.jpg);
+}
+
+#background-2 {
+    background-image: url(http://miriadna.com/desctopwalls/images/max/Another-ordinary-day.jpg);
+}
+
+#background-3 {
+    background-image: url(http://t-ec.bstatic.com/images/hotel/840x460/589/58997502.jpg);
+}
+
+#background-4 {
+    background-image: url(http://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2016/08/google-streetview.jpg);
+}
+
+.carousel-product-demo {
+    width: 100%;
+    height: 470px;
+    /*  background-position: center;
+    background-size: cover;*/
+    background-repeat: no-repeat;
+    height: 500px;
+    background-image: url(../img/carousel.png)
+}
+
+
+/* Caption style */
+
+
+/* 4-column-slide stylesheet stop*/
+
+.news-panel {
+    width: 100%;
+    height: 120vh;
+    /*background-color: red;*/
+    margin-left: 20px;
+    border-left: 1px solid #aaa;
+}
+
+.news-panel h2 {
+    text-align: center;
+}
+
+
+/* Content styles stop */
+
+
+/* Contact section - start*/
+
+#contact {
+    background-color: #313537;
+    ;
+    color: #9d9f9f;
+    text-decoration: none;
+    padding: 40px 60px;
+}
+
+#contact h2 {
+    text-align: left;
+    margin-top: 0;
+}
+
+#contact address {
+    font-style: normal;
+    margin: auto;
+}
+
+#contact address a {
+    color: #1ac056;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#contact address a:hover {
+    color: #fff;
+}
+
+form .row{
+    margin: 0;
+}
+/*form>div:nth-child(2) {
+    margin: 0;
+    display: block;
+}*/
+
+form input[type='text'],
+form input[type='email'],
+form textarea {
+    margin-bottom: 15px;
+    background-color: #40454b;
+    color: #fff;
+    padding: 5px;
+    padding-left: 10px;
+    border: 0;
+    position: relative;
+    width: 100%;
+    outline: none;
+}
+
+form input[type='text']:focus,
+form input[type='email']:focus,
+form textarea:focus {
+    background-color: #40454b;
+}
+
+form input[type="submit"] {
+    background-color: #1ac056;
+    text-transform: uppercase;
+    height: auto;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    float: right;
+    transition: all .3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+
+
+/* Contact section - start*/
+
+
+/* Footer - start*/
+
+footer {
+    margin-top: 0;
+    font-size: 1.2em;
+    padding: 5px;
+    color: #9d9f9f;
+    background-color: #1c2023;
+    padding-left: 55px;
+}
+
+footer p {
+    text-align: left;
+    margin: 0;
+}
+
+
+/* Footer - stop*/
