@@ -126,8 +126,8 @@ section {
 
 .nav>li.dropdown.open .dropdown-menu>li:hover>ul,
 .nav>li.dropdown.open .dropdown-menu>li:hover>ul>li,
-.nav>li.dropdown.open .dropdown-menu>li:active>ul,
-.nav>li.dropdown.open .dropdown-menu>li:active>ul>li {
+.nav>li.dropdown.open .dropdown-menu>li:focus>ul,
+.nav>li.dropdown.open .dropdown-menu>li:focus>ul>li {
     display: block;
     border-radius: 5px;
 }
