@@ -155,26 +155,8 @@ section {
 
 /* Content styles start */
 
-
-/*#content {
-    height: 700px;
-    margin-left: 0px;
-    padding-left: 30px;
-    display: inline-block;
-}*/
-
-
-/*
-.container{
-    margin: 0;
-}
-*/
-
-
-/* 4-column-slide stylesheet start*/
-
 #content{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* 4-column-slide stylesheet start*/
