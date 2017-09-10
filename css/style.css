@@ -159,9 +159,72 @@ section {
     margin-top: 30px;
 }
 
-/* 4-column-slide stylesheet start*/
+/* jQuery stylesheet start*/
 
-.slider-4-columns {
+#slider {
+	overflow: hidden;
+    width: 100%;
+	height: 60vh;
+	position: relative;
+    padding-top: 20px;
+	
+}
+
+.slide-show {
+	position: absolute;
+	height: 100%;	
+}
+
+.slide-show .single-slide {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+#slider .slide-show .single-slide img {
+	border: none;
+	width: 100%;
+	min-height: 100%;
+}
+
+#slider .slide-show .single-slide .slider-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 5;
+	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	font-size: 5em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#slider .slider-arrows a{
+	top:50%;
+	transform: translateY(-50%);
+	font-size: 3em;
+	color: #fff;
+}
+
+#slider .slider-arrows a:hover{
+	color: #333;
+}
+
+#slider .slider-arrows .prev-slide{
+	position: absolute;
+	left: 0;
+	z-index: 10;
+}
+
+#slider .slider-arrows .next-slide {
+	position: absolute;
+	right: 0;
+	z-index: 10;
+}
+
+/*.slider-4-columns {
     width: 100%;
     height: 60vh;
     overflow: hidden;
@@ -185,8 +248,9 @@ section {
     height: 100%;
     width: 200%;
     background-repeat: no-repeat;
-}
+}*/
 
+/*
 .slider-4-columns>.column-1-4:hover {
     width: 100%;
 }
@@ -215,7 +279,7 @@ section {
 #background-4 {
     background-image: url(http://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2016/08/google-streetview.jpg);
 }
-
+*/
 .carousel-product-demo {
     width: 100%;
     height: 470px;
@@ -227,10 +291,14 @@ section {
 }
 
 
+
+
+
+
 /* Caption style */
 
 
-/* 4-column-slide stylesheet stop*/
+/* jQuery stylesheet stop*/
 
 .news-section{
     margin: 0;
